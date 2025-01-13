@@ -8,7 +8,7 @@ const Footer = () => {
         <a href="https://github.com/pushpendar881" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
           <Github className="w-6 h-6 text-white hover:text-gray-400" />
         </a>
-        
+          
         {/* LinkedIn Icon */}
         <a href="https://linkedin.com/in/pushpendar-choudhary-55b86b288" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
           <Linkedin className="w-6 h-6 text-white hover:text-blue-500" />
