@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import avatar from "../assets/OIP.jpg"; 
-import intern from "../assets/intern.jpg";
+import intern from "../assets/certificate.jpg";
 import nvidia from "../assets/Screenshot 2024-12-22 212105.png";
 import Footer from "./Footer";
 import ContactSection from "../components/ContactSession";
