@@ -17,7 +17,7 @@ const ContactSection = () => {
           <div className="flex flex-wrap gap-4 mt-8">
             <button className="flex items-center bg-black rounded-md px-6 py-3">
                 <a
-                href="https://drive.google.com/file/d/1_xldVEk4NpTCZyRHIO_HnKQXjVDYMSMJ/view?usp=sharing" // Replace with your actual file path
+                href="https://drive.google.com/file/d/1qQHDV2_zFRUMrfS8uXLSgQ-OKOC8rhIu/view?usp=sharing"
                 download // This will prompt the user to download the file
                 className="flex items-center text-white"
                 >
