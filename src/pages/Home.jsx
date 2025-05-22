@@ -1,6 +1,7 @@
 import avatar from "../assets/OIP.jpg"; 
 import intern from "../assets/certificate.jpg";
 import nvidia from "../assets/Screenshot 2024-12-22 212105.png";
+import crewai from "../assets/Screenshot 2025-05-22 182315.png";
 import { useState, useEffect } from "react";
 import { Code, Award, Mail, ExternalLink, BookOpen, Globe, Cpu } from "lucide-react";
 import Footer from "./Footer"; // Maintaining your Footer component
@@ -220,14 +221,10 @@ const Home = () => {
                 <div className="max-w-2xl">
                   <h3 className="text-2xl font-bold mb-6 text-indigo-300">Pushpendar Choudhary</h3>
                   <p className="text-lg text-gray-300 mb-6 leading-relaxed">
-                    I'm an engineering student with a strong passion for Artificial Intelligence, Machine Learning, and Deep Learning. 
-                    Currently pursuing a B.Tech in AI/Data Science at Vivekanand Education Society's Institute of Technology in Mumbai 
-                    with a <span className="font-semibold text-indigo-300">CGPA of 9.68</span>.
+                  Third-year AI & Data Science student at VESIT Mumbai with a passion for building real-world solutions using Machine Learning, Deep Learning, and Generative AI. Skilled in Python, Java, C, and DSA, with hands-on experience in full-stack development and model deployment.
                   </p>
                   <p className="text-lg text-gray-300 leading-relaxed">
-                    I have hands-on experience building machine learning models and creating interactive, 
-                    user-friendly frontends with tools like Streamlit. My goal is to leverage technology to solve 
-                    real-world problems and make a positive impact in the field of AI.
+                  🚀 Actively exploring SDE, AI/ML, and Data Science internships to contribute, learn, and grow with like-minded innovators.
                   </p>
                   
                   <div className="flex gap-6 mt-8">
@@ -237,7 +234,7 @@ const Home = () => {
                     <a href="#" className="text-gray-300 hover:text-indigo-400 transition-colors" aria-label="LinkedIn">
                       <Globe size={24} />
                     </a>
-                    <a href="#" className="text-gray-300 hover:text-indigo-400 transition-colors" aria-label="Email">
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=pushpendarchoudhary106@gmail.com" className="text-gray-300 hover:text-indigo-400 transition-colors" aria-label="Email">
                       <Mail size={24} />
                     </a>
                   </div>
@@ -274,10 +271,15 @@ const Home = () => {
                       and applying theoretical knowledge to real-world problems.
                     </p>
                     <div className="mt-4 flex justify-end">
-                      <button className="flex items-center gap-1 text-indigo-400 hover:text-indigo-300 transition-colors">
+                      <a
+                        href="https://drive.google.com/file/d/1BzsQZC9FMv_5UK-8_OskUgeYb0_HCDMY/view?usp=sharing"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-1 text-indigo-400 hover:text-indigo-300 transition-colors"
+                      >
                         <span>View Certificate</span>
                         <ExternalLink size={16} />
-                      </button>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -300,10 +302,44 @@ const Home = () => {
                       in deep learning and AI, including neural networks and computer vision.
                     </p>
                     <div className="mt-4 flex justify-end">
-                      <button className="flex items-center gap-1 text-indigo-400 hover:text-indigo-300 transition-colors">
+                      <a
+                        href="https://drive.google.com/file/d/1w8VHVR1gwMd0E8frEAtx8PFQxfmL4yA9/view?usp=drive_link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-1 text-indigo-400 hover:text-indigo-300 transition-colors"
+                      >
                         <span>View Certificate</span>
                         <ExternalLink size={16} />
-                      </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="group bg-slate-800/70 rounded-xl overflow-hidden shadow-lg shadow-indigo-900/20 border border-slate-700 transform transition-transform hover:-translate-y-2">
+                  <div className="h-64 overflow-hidden">
+                    <img
+                      src={crewai}
+                      alt="NVIDIA Deep Learning Certification"
+                      className="w-full h-full object-cover transition-transform group-hover:scale-105"
+                    />
+                  </div>
+                  <div className="p-6">
+                    <div className="flex items-center gap-2 mb-4">
+                      <Award className="text-indigo-400" size={20} />
+                      <h3 className="text-xl font-bold">Crew AI</h3>
+                    </div>
+                    <p className="text-gray-300">
+                    Successfully completed the <em>Initial Course on CrewAI</em>, gaining foundational skills in designing and building multi-agent systems. This certification represents a key milestone in mastering collaborative AI-driven technologies.
+                    </p>
+                    <div className="mt-4 flex justify-end">
+                      <a
+                        href="https://drive.google.com/file/d/1uYksrzDqrA3Xx9xBTEWMgfFm1AQP751W/view?usp=sharing"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-1 text-indigo-400 hover:text-indigo-300 transition-colors"
+                      >
+                        <span>View Certificate</span>
+                        <ExternalLink size={16} />
+                      </a>
                     </div>
                   </div>
                 </div>
