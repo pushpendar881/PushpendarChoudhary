@@ -1,23 +1,14 @@
 import avatar from "../assets/OIP.jpg"; 
 import intern from "../assets/certificate.jpg";
 import nvidia from "../assets/Screenshot 2024-12-22 212105.png";
-// import Footer from "./Footer";
-
 import { useState, useEffect } from "react";
 import { Code, Award, Mail, ExternalLink, BookOpen, Globe, Cpu } from "lucide-react";
 import Footer from "./Footer"; // Maintaining your Footer component
 import ContactSection from "../components/ContactSession"; // Maintaining your Contact component
 import SkillsSection from "../components/SkillsSection"; // Maintaining your Skills component
-import MultiCardGrid from "../components/Card"; // Maintaining your Projects component
-
-// If you have the actual images, use them here
-// For now, we'll use placeholders that will work in this environment
-// const placeholderAvatar = "/api/placeholder/400/400"; // Replace with avatar in production
-// const placeholderIntern = "/api/placeholder/600/400"; // Replace with intern image in production
-// const placeholderNvidia = "/api/placeholder/600/400"; // Replace with nvidia image in production
+import MultiCardGrid from "../components/Card"; 
 
 const Home = () => {
-  // Animation for role switcher (expanded from your original)
   const roles = ["Developer", "Engineer", "AI Enthusiast", "Problem Solver"];
   const [roleIndex, setRoleIndex] = useState(0);
   const [text, setText] = useState("");
